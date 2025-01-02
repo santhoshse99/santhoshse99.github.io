@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; color: #fff;}
+body, html {
+  height: 100%;
+  color: #ddd;
+  line-height: 1.8;
+  background-color: #000;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding-small w3-round-large" id="myNavbar" style="background-color: #121212; display: flex; justify-content: center;">
+    <a href="#home" class="w3-bar-item w3-button w3-hover-gray w3-round-large" style="margin: 0 10px; display: flex; align-items: center;">
+      <i class="fa fa-home" style="margin-right: 8px;"></i>Home
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-gray w3-round-large" style="margin: 0 10px; display: flex; align-items: center;">
+      <i class="fa fa-user" style="margin-right: 8px;"></i>About
+    </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hover-gray w3-round-large" style="margin: 0 10px; display: flex; align-items: center;">
+      <i class="fa fa-briefcase" style="margin-right: 8px;"></i>Projects
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-gray w3-round-large" style="margin: 0 10px; display: flex; align-items: center;">
+      <i class="fa fa-envelope" style="margin-right: 8px;"></i>Contact
+    </a>
+  </div>
+</div>
+
+
+<!-- Home Section -->
+<!-- <div class="w3-content w3-container w3-padding-64" id="home">
+  <h3 class="w3-center">Welcome to my page !</h3>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <img src="images/santhosh.jpg" alt="Santhosh" style="width:80%; border-radius: 10px;">
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <p>Hi, I'm Santhosh, a master's student in the Computer Science department at George Mason University. I have one year of professional experience as a systems engineer, where I worked on Spring Boot-based microservices for a core banking application. I'm proficient in Java, Python, and C, with a preference for Java whenever possible. I also have experience with Amazon Web Services (AWS) and some exposure to DevOps.</p>
+    </div>
+  </div>
+
+  <h4 class="w3-center" style="margin-top: 40px;"><b>Programming Expertise</b></h4>
+  <div class="w3-light-grey w3-round-xlarge w3-margin-bottom">
+    <div class="w3-container w3-round-xlarge w3-blue" style="width:100%">Python</div>
+  </div>
+  <div class="w3-light-grey w3-round-xlarge w3-margin-bottom">
+    <div class="w3-container w3-round-xlarge w3-green" style="width:100%">Java</div>
+  </div>
+  <div class="w3-light-grey w3-round-xlarge w3-margin-bottom">
+    <div class="w3-container w3-round-xlarge w3-teal" style="width:100%">SQL</div>
+  </div>
+  <div class="w3-light-grey w3-round-xlarge w3-margin-bottom">
+    <div class="w3-container w3-round-xlarge w3-orange" style="width:75%">C</div>
+  </div>
+  <div class="w3-light-grey w3-round-xlarge w3-margin-bottom">
+    <div class="w3-container w3-round-xlarge w3-red" style="width:75%">C++</div>
+  </div>
+</div> -->
+
+<div class="w3-content w3-container w3-padding-64" id="home">
+  <h3 class="w3-center">Welcome to my page!</h3>
+  <div class="w3-row">
+    <!-- Image Section -->
+    <div class="w3-col m6 w3-padding-large" style="display: flex; justify-content: center;">
+      <img src="images/santhosh.jpg" alt="Santhosh" style="width:80%; border-radius: 10px;">
+    </div>
+    
+    <!-- Text and Core Interests -->
+    <div class="w3-col m6 w3-padding-large">
+      <p>
+        Hi, I'm Santhosh, a master's student in the Computer Science department at George Mason University. 
+        I have one year of professional experience as a systems engineer, where I worked on Spring Boot-based 
+        microservices for a core banking application. I'm proficient in Java, Python, and C, with a preference 
+        for Java whenever possible. I also have experience with Amazon Web Services (AWS) and exposure to 
+        DevOps.
+      </p>
+
+      <!-- Core Interests -->
+      <div style="margin-top: 20px;">
+        <h4 style="margin-bottom: 10px;"><b>Core Interests</b></h4>
+        <p>
+          I am deeply passionate about exploring the fields of Natural Language Processing (NLP) and Large Language Models (LLMs). 
+          My goal is to work at the intersection of these technologies to make AI more accessible and impactful. 
+          Additionally, I enjoy solving complex problems and discovering innovative solutions through algorithms and advanced computational techniques.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About Me Section -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><b>About me</b></h3>
+
+  <!-- Education Section -->
+  <div class="w3-row">
+    <h4>Education</h4>
+    <ul>
+      <li><strong>M.S. in Computer Science</strong><br>
+      George Mason University, Fairfax, VA<br>
+      Aug 2023 - May 2025 (Expected)
+     
+      <p></p><li><strong>B.E. in Computer Science and Engineering</strong><br>
+      Anna University, Tamil Nadu, India<br>
+      Aug 2017 – Apr 2021<br></li></p>
+    </ul>
+  </div>
+
+  <!-- Graduate Coursework Section -->
+  <div class="w3-row">
+    <h4>Graduate Coursework</h4>
+    <ul>
+      <li>CS 530 - Mathematical Foundations of Computer Science</li>
+      <li>CS 531 - Fundamentals of Systems Programming</li>
+      <li>CS 583 - Analysis of Algorithms</li>
+      <li>CS 550 - Database Systems</li>
+      <li>CS 580 - Artificial Intelligence</li>
+      <li>CS 747 - Decision Guidance Systems</li>
+      <li>CS 678 - Natural Language Processing</li>
+      <li>SWE 642 - Software Engineering for the World Wide Web</li>
+      <li>SWE 645 - Component-Based Software Development</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Projects Section -->
+<!-- <div class="w3-content w3-container w3-padding-64" id="projects">
+  <h3 class="w3-center">PROJECTS</h3>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <h4>Personalized Chatbot</h4>
+      <p>A chatbot leveraging NLP and recommendation systems to assist users in navigating university resources, providing personalized recommendations for courses, events, and financial aids.</p>
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h4>API Validation Framework</h4>
+      <p>Developed a Python-based framework for validating REST APIs, ensuring secure and efficient communication between services.</p>
+    </div>
+  </div>
+</div> -->
+
+<!-- Projects Section -->
+<div class="w3-content w3-container w3-padding-64" id="projects">
+  <h3 class="w3-center"><b>Projects</b></h3>
+  <div class="w3-row-padding">
+    <!-- Project 1: PatriotPilot -->
+    <div class="w3-col m6 w3-padding-large">
+      <h4>PatriotPilot: NLP-Based University Chatbot</h4>
+      <p>
+        Built a chatbot for George Mason University using a Retrieval-Augmented Generation (RAG) framework, fine-tuned with Qwen 2.5 LLM for accurate and personalized responses.
+      </p>
+      <a href="https://github.com/santhoshse99/PatriotPilot" target="_blank">
+        <i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge"></i> GitHub Repository
+      </a>
+    </div>
+
+    <!-- Project 2: Survey Management System -->
+    <div class="w3-col m6 w3-padding-large">
+      <h4>Survey Management System</h4>
+      <p>
+        Developed a full-stack web application for managing surveys using Spring Boot and Vue.js, containerized with Docker, and integrated with a CI/CD pipeline.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center">
+    <!-- Project 3: Job Recommendation System -->
+    <div class="w3-col m6 w3-padding-large" style="margin: 0 auto; float: none;">
+      <h4>Job Recommendation System</h4>
+      <p>
+        Created a web-based job recommendation system leveraging DistilBERT for accurate matches based on user profiles and preferences.
+      </p>
+      <a href="https://github.com/santhoshse99/Job-Recommendation-System" target="_blank">
+        <i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge"></i> GitHub Repository
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center"><b>Get in touch with me!</b></h3>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-file-pdf-o fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+        <a href="files/Santhosh_Sumathi_Elumalai_Resume.docx" download="Santhosh_Sumathi_Resume">Download My Resume</a><br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Fairfax, VA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +703 656-3648<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ssumathi@gmu.edu<br>
+        <i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/santhosh-s-e/">LinkedIn</a><br>
+        <i class="fa fa-github fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a href="https://github.com/santhoshse99">GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
